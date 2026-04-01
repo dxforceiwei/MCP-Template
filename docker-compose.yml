@@ -1,0 +1,9 @@
+services:
+  example-mcp:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      MCP_HOST: "0.0.0.0"
+      MCP_PORT: "80"
+      MCP_TRANSPORT: "streamable-http"

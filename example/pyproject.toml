@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "example-mcp"
+version = "0.1.0"
+description = "Python MCP 套版之完整範例（Tools + HTTP 健康檢查）"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.24",
+    "uvicorn[standard]>=0.30",
+]
+
+[project.scripts]
+example-mcp = "example_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
