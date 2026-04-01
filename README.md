@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python MCP 共用套版與範例
 
 本專案提供可複製的 **FastMCP** 骨架（`template/`）、可執行的完整範例（`example/`），以及 **Docker** 於 **80** 埠部署 **Streamable HTTP** 的預設設定。
@@ -59,3 +60,7 @@ curl -s http://127.0.0.1/health
 
 - Python **3.10+**
 - 核心套件：`mcp`、`uvicorn`（FastMCP 的 SSE / Streamable HTTP 會透過 uvicorn 提供）
+=======
+# MCP-Template
+MCP套版
+>>>>>>> origin/main
